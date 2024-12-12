@@ -4,12 +4,10 @@ build-backend = "maturin"
 
 [project]
 name = "speedestpy"
-version = "0.0.1"
 authors = [
   { name="Guillaume Havard", email="guill.havard@gmail.com" },
 ]
-description = "This project demonstrates how to integrate external process into Python applications to improve
-performance in computationally intensive tasks."
+description = "Tests to improve performance in computationally intensive tasks."
 readme = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
