@@ -1,9 +1,14 @@
-# Rust in Python
+# SpeedestPy
 
-This project demonstrates how to integrate Rust code into Python applications to improve
+
+> **Warning**: We use plateform/compilator dependent code, It may not works on your computer !
+> This package will only be tested on linux(Ubuntu 22.04) for now
+
+
+This project demonstrates how to integrate external process into Python applications to improve
 performance in computationally intensive tasks.
 
-THis package is an hybrid one between python and rust
+For the moment we are only using python, numpy and rust.
 
 * `src/` contains rust sources
 * `src_python/` contains python sources

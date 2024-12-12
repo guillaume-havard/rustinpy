@@ -5,7 +5,7 @@ use numpy::{IntoPyArray, PyArrayDyn, PyArrayMethods, PyReadonlyArrayDyn};
 use pyo3::{pymodule, types::PyModule, Bound, PyResult, Python};
 
 #[pymodule]
-fn rustinpy<'py>(m: &Bound<'py, PyModule>) -> PyResult<()> {
+fn speedestpy<'py>(m: &Bound<'py, PyModule>) -> PyResult<()> {
     fn add_one(mut array: ArrayViewMutD<'_, f64>, value: f64) {
         array += value;
     }
